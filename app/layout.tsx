@@ -34,7 +34,7 @@ export const metadata: Metadata = {
       "Печать книг от 1 экземпляра до крупных тиражей. Мягкий и твердый переплет, пробный экземпляр при заказе тиража.",
     locale: "ru_KZ",
     type: "website",
-    images: ["/images/opt/studio-hero.webp"],
+    images: ["/images/opt/studio-hardcover.webp"],
   },
   icons: {
     icon: "/images/original/cropped-favicon-32x32.png",
@@ -46,7 +46,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   name: site.legal,
-  image: `${site.domain}/images/opt/studio-hero.webp`,
+  image: `${site.domain}/images/opt/studio-hardcover.webp`,
   telephone: site.phoneDisplay,
   email: site.email,
   url: site.domain,
